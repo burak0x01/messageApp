@@ -18,7 +18,9 @@ html,body {
 .chat-container {
     height: 100%;
     display: flex; /* container içindeki elementleri yan yana getiriyor */
-
+    max-width: 1300px;
+    min-width: 900px;
+    margin: 0 auto;
 }
 
 .chat-container > .sidebar {
@@ -109,6 +111,7 @@ html,body {
 .chat-container > .content {
     flex: 1; /* bu element kendine kalan alanı otomatik olarak dolduracak */
     border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
     display: flex;
     flex-direction: column;
 }
